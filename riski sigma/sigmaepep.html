@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Berita</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        /* ===== NAVBAR ===== */
+        header {
+            background-color: #2e7d32;
+            padding: 15px 40px;
+            color: white;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            cursor: pointer;
+        }
+
+        nav ul li:hover {
+            text-decoration: underline;
+        }
+
+        /* ===== JUDUL ===== */
+        .title {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .title h1 {
+            margin: 0;
+            color: #333;
+        }
+
+        /* ===== CONTENT ===== */
+        .container {
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            padding-bottom: 40px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-content h3 {
+            margin-top: 0;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .card-content p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            background-color: #2e7d32;
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .btn:hover {
+            background-color: #256528;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+    <div class="navbar">
+        <div class="logo">Perguruan Panca Budi</div>
+        <nav>
+            <ul>
+                <li>Beranda</li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- ===== JUDUL ===== -->
+<div class="title">
+    <h1>Berita dan Pengumuman</h1>
+</div>
+
+<!-- ===== CONTENT ===== -->
+<div class="container">
+
+    <div class="card">
+        <img src="Foto SMA/SMA.jpg" alt="Kegiatan Sekolah">
+        <div class="card-content">
+            <h3>PENGANTAR STUDI SMA PANCA BUDI MEDA</h3>
+            <p>
+                Gema suara ucapan selamat menyelimuti Ballroom Griya Benn Convention Hall pada Selasa, 22 April 2025. Sejak pagi, 
+                pelataran gedung ini dipadati oleh siswa-siswi kelas XII SMA Panca Budi Medan. Hari itu menjadi momen bersejarah bagi mereka,
+            </p>
+            <a href="https://pancabudi.sch.id/detil/Pengantar_Studi_SMA_Panca_Budi_Medan_TA_20242025_Semarak_YGafz" class="btn">Baca</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Foto SMA/Event berita.jpeg" alt="Pengantar Studi">
+        <div class="card-content">
+            <h3>JUARA 1 SCHOOL GREEN COMPETITION</h3>
+            <p>
+                PMR UNIT 091 Panca Budi Medan kembali menunjukkan prestasinya, kali ini dalam ajang School Green Competition (GSC) yang digelar oleh Poltekkes Kemenkes Medan. 
+                Prestasi ini diraih setelah melalui serangkaian tahapan dalam kegiatan &ldquo..
+            </p>
+            <a href="https://pancabudi.sch.id/detil/JUARA_1_SCHOOL_GREEN_COMPETITION_cwU9F" class="btn">Baca</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Foto SMA/Pengumuman berita.jpg" alt="Studi Pengabdian">
+        <div class="card-content">
+            <h3>PERGURUAN PANCA BUDI MEDAN GELAR BU</h3>
+            <p>
+                Perguruan Panca Budi Medan menggelar acara buka puasa bersama untuk mempererat tali silaturahmi di kalangan seluruh pegawai, guru, dan pimpinan. 
+                Acara tersebut berlangsung di Saka Hotel Medan pada hari Senin, 17 Maret 2025, dan dihadiri oleh seluruh ..
+            </p>
+            <a href="https://pancabudi.sch.id/detil/PERGURUAN_PANCA_BUDI_MEDAN_GELAR_BUKA_PUASA_BERSAMA_PERERAT_SILATURAHMI_ANTAR_PEGAWAI_DAN_GURU_jHv40" class="btn">Baca</a>
+        </div>
+    </div>
+
+        <div class="card">
+        <img src="Foto SMA/Gelar SMA.jpeg" alt="Studi Pengabdian">
+        <div class="card-content">
+            <h3>SMA PANCA BUDI MEDAN GELAR PORSENI</h3>
+            <p>
+                SMA Panca Budi Medan kembali menyelenggarakan Pekan Olahraga dan Seni (PORSENI) antar kelas, 
+                sebuah kegiatan tahunan yang bertujuan untuk menyalurkan bakat dan minat siswa dalam bidang olahraga dan seni. Acara ini berlangsung selama empat hari, dimul..
+            </p>
+            <a href="https://pancabudi.sch.id/detil/SMA_PANCA_BUDI_MEDAN_GELAR_PORSENI_ANTAR_KELAS_BERLANGSUNG_MERIAH_uZWO9" class="btn">Baca</a>
+        </div>
+    </div>
+
+
+</div>
+
+<!-- ===== JUDUL ===== -->
+<div class="title">
+    <h1>Galeri</h1>
+</div>
+
+<!-- ===== CONTENT ===== -->
+<div class="container">
+
+    <div class="card">
+        <img src="Foto SMA/kegiatan P.jpg" alt="Kegiatan Sekolah">
+        <div class="card-content">
+            <h3>Kegiatan Panca Budi</h3>
+            <p>
+                Kegiatan video Sekolah SMA Panca budi Medan
+            </p>
+            <a href="https://youtu.be/k76wE_qkblw?si=oJQ3HF35sVHp0pt-" class="btn">Video</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Foto SMA/dokumentasi sma.jpg" alt="Pengantar Studi">
+        <div class="card-content">
+            <h3>TIGA KARATEKA MUDA PERGURUAN PANCA</h3>
+            <p>
+                Prestasi kembali diraih oleh para siswa Perguruan Panca Budi Medan. Dalam ajang karate bergengsi, 
+                INTERNATIONAL INKADO OPEN CHAMPIONSHIP 2024 yang berlangsung pada 22-24 November 2024 di Mall Botania 2, Batam, Kepulauan Riau, tiga karateka muda berha..
+            </p>
+            <a href="https://pancabudi.sch.id/detil/TIGA_KARATEKA_MUDA_PERGURUAN_PANCA_BUDI_MEDAN_CETAK_PRESTASI_GEMILANG_DI_AJANG_INTERNASIONAL_lyADc" class="btn">Baca</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Foto SMA/foto kegiatan sma.jpg" alt="Studi Pengabdian">
+        <div class="card-content">
+            <h3>PERINGATAN HARI GURU NASIONAL DI P</h3>
+            <p>
+                Perguruan Panca Budi Medan melaksanakan upacara peringatan Hari Guru Nasional ke-79 di Halaman Gedung Sekolah Perguruan Panca Budi, 
+                Jalan Gatot Subroto Km 4,5 Medan, Senin (25/11/2024). Upacara tersebut, diikuti oleh seluruh peserta didik mulai dari ..
+            </p>
+            <a href="https://pancabudi.sch.id/detil/PERINGATAN_HARI_GURU_NASIONAL_DI_PERGURUAN_PANCA_BUDI_MEDAN_SnoSP" class="btn">Baca</a>
+        </div>
+    </div>
+
+        <div class="card">
+        <img src="Foto SMA/Gelar SMA.jpeg" alt="Studi Pengabdian">
+        <div class="card-content">
+            <h3>SMA PANCA BUDI MEDAN GELAR PORSENI</h3>
+            <p>
+                SMA Panca Budi Medan kembali menyelenggarakan Pekan Olahraga dan Seni (PORSENI) antar kelas, 
+                sebuah kegiatan tahunan yang bertujuan untuk menyalurkan bakat dan minat siswa dalam bidang olahraga dan seni. Acara ini berlangsung selama empat hari, dimul..
+            </p>
+            <a href="https://pancabudi.sch.id/detil/SMA_PANCA_BUDI_MEDAN_GELAR_PORSENI_ANTAR_KELAS_BERLANGSUNG_MERIAH_uZWO9" class="btn">Baca</a>
+        </div>
+    </div>
+
+</div>
+
+<!-- ===== JUDUL ===== -->
+<div class="title">
+    <h1>PBB (Penerimaan Peserta Didik Baru)</h1>
+</div>
+
+<!-- ===== CONTENT ===== -->
+<div class="container">
+
+    <div class="card">
+        <img src="Foto SMA/Pendaftaran.png" alt="Kegiatan Sekolah">
+        <div class="card-content">
+            <h3>PBB</h3>
+            <p>
+                Pendaftaran SMA Panca Budi Medan
+            </p>
+            <a href="https://youtu.be/k76wE_qkblw?si=oJQ3HF35sVHp0pt-" class="btn">Pendaftaran</a>
+        </div>
+    </div>
+
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    © 2025 SMA Panca Budi Medan
+</footer>
+
+</body>
+</html>
